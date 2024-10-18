@@ -16,4 +16,7 @@ In the crop recommendation system, the user provides inputs such as Nitrogen (N)
 | Random forest             | 95%         |
 | naïve bayes               | 95%         |
 | k-Nearest Neighbor        | 98%         |
+
+# Fertilizer Recommendation-System
+In the fertilizer recommendation system, inputs such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH, rainfall, and the crop to be cultivated are provided. The model first determines the optimal N, P, K values based on the input parameters using the KNN algorithm. Next, our soil's N, P, K values are subtracted from the required values to identify the nutrient deficiencies in the soil. These deficient nutrient values (N, P, K) are then fed into another KNN model. This model searches for an organic fertilizer whose nutrient composition is closest to the input values and provides it as a recommendation. The KNN algorithm gives the accuracy of 95% for this system.
  
