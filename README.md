@@ -8,10 +8,12 @@ Two datasets are used in this work.
 
 # Crop Recommendation-System
 In the crop recommendation system, the user provides inputs such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH, and rainfall. Based on these inputs, the system recommends the most suitable crop. Several machine learning algorithms are employed for this system, including Support Vector Machine (SVM), Decision Tree, Random Forest, Naïve Bayes, and k-Nearest Neighbor (KNN). The table below shows the accuracy of each algorithm. For this particular work, the KNN algorithm is used.
-Algorithms	Accuracy
-Support Vector Machine	98%
-Decision tree	95%
-Random forest	95%
-naïve bayes 	95%
-k-Nearest Neighbor	98%
 
+| Algorithm                 | Accuracy    |
+|---------------------------|-------------|
+| Support Vector Machine    | 98%         |
+| Decision tree	            | 95%         |
+| Random forest             | 95%         |
+| naïve bayes               | 95%         |
+| k-Nearest Neighbor        | 98%         |
+ 
